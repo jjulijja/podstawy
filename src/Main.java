@@ -46,8 +46,13 @@ public class Main {
 //            }
 
         Scanner skaner = new Scanner(System.in);
-        String userInput = skaner.nextLine();
-        System.out.println(userInput);
+        System.out.println("Wpisz swoje imię");
+        String userInputName = skaner.nextLine();
+        System.out.println("Wpisz swoje nazswisko");
+        String userInputLastName = skaner.nextLine();
+        System.out.println("Witaj" + userInputName + userInputLastName +"!");
+
+
         }
 
 
